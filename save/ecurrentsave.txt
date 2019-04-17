@@ -1,0 +1,12 @@
+t
+left
+g
+space
+l
+right
+space
+left
+right
+space
+left
+right

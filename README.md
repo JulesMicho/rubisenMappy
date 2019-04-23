@@ -16,7 +16,8 @@ Plus précisément, le programme permet d'attribuer un mouvement du cube xiaomi 
 
 ###### Windows usage
 
-Download the [latest build](https://github.com/JulesMicho/rubisenMappy/releases)
+* Download the zip folder [latest build](https://github.com/JulesMicho/rubisenMappy/releases)
+* Execute rubisenMappy.exe
 
 ###### Project setup
 ```console

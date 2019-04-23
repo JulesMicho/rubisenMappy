@@ -372,8 +372,12 @@ async def run(other, loop): #lance une connexion avec un device/cube
 
 def AffichageDevicesPyGame(tabDevices): # affiche les devices détectés sur la fenetre
 	fenetre.blit(pygame.transform.scale(cache, (surfaceW, surfaceW)), (0,0))
-	for i in range(len(tabDevices)):
-		fenetre.blit(font.render(tabDevices[i][0] + " : " + tabDevices[i][1], 1, (0, 0, 0)),(525, 25 * (i+1)))
+	if len(tabDevices) == 0:
+		fenetre.blit(font.render("Aucun cube trouvé,", 1, (0, 0, 0)), (500, 300))
+		fenetre.blit(font.render("vérifiez votre connexion Bluetooth.", 1, (0, 0, 0)), (500, 350))
+	else:
+		for i in range(len(tabDevices)):
+			fenetre.blit(font.render(tabDevices[i][0] + " : " + tabDevices[i][1], 1, (0, 0, 0)), (525, 25 * (i+1)))
 	pygame.display.update()
 	initFirstClickAreas(tabDevices)
 

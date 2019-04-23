@@ -24,6 +24,13 @@ pip install -r requirements.txt --user
 run rubisenMappy.exe file
 ```
 
+# Build
+
+###### Windows
+```console
+pyinstaller -F --add-data BleakUWPBridge.dll;. finalcube.py
+```
+
 # Tips
 
 Quelquefois, il se peut que la connexion bluetooth échoue.

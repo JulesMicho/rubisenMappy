@@ -1,3 +1,4 @@
 pygame
 pynput
 bleak
+pyinstaller

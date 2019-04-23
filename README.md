@@ -14,6 +14,10 @@ Plus précisément, le programme permet d'attribuer un mouvement du cube xiaomi 
 
 # Usage
 
+###### Windows usage
+
+Download the [latest build](https://github.com/JulesMicho/rubisenMappy/releases)
+
 ###### Project setup
 ```console
 pip install -r requirements.txt --user
